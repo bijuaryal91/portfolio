@@ -16,8 +16,8 @@ html[theme='dark-mode'] {
 .overflow-wrap{
   overflow-x: hidden;
 }
+
 #screen-loader {
-  display:none;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -25,6 +25,7 @@ html[theme='dark-mode'] {
   left: 0;
   background: #020c1b;
   z-index: 2;
+  display:none;
 }
 
 #screen-loader div {
@@ -32,6 +33,7 @@ html[theme='dark-mode'] {
   position: relative;
   top: 40%;
 }
+
 /* SCREEN LOADER STYLE ENDS. */
 .content{
   max-width: 1250px;
