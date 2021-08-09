@@ -17,6 +17,7 @@ html[theme='dark-mode'] {
   overflow-x: hidden;
 }
 #screen-loader {
+  display:none;
   height: 100%;
   width: 100%;
   position: fixed;
