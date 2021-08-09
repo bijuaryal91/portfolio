@@ -12,11 +12,11 @@ html[theme='dark-mode'] {
     filter: invert(1) hue-rotate(180deg);
 }
 
-/* SCREEN LOADER STYLE STARTS. 
+/* SCREEN LOADER STYLE STARTS. */
 .overflow-wrap{
   overflow-x: hidden;
 }
-
+/*
 #screen-loader {
   height: 100%;
   width: 100%;
@@ -31,8 +31,7 @@ html[theme='dark-mode'] {
   text-align: center;
   position: relative;
   top: 40%;
-}
-*/
+}*/
 /* SCREEN LOADER STYLE ENDS. */
 .content{
   max-width: 1250px;
