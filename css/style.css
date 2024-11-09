@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
 }
-html[theme='dark-mode'] {
-    filter: invert(1) hue-rotate(180deg);
+html[theme="dark-mode"] {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 /* SCREEN LOADER STYLE STARTS. */
-.overflow-wrap{
+.overflow-wrap {
   overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ html[theme='dark-mode'] {
   left: 0;
   background: #020c1b;
   z-index: 2;
-  display:none;
+  display: none;
 }
 
 #screen-loader div {
@@ -35,41 +35,41 @@ html[theme='dark-mode'] {
 }
 
 /* SCREEN LOADER STYLE ENDS. */
-.content{
+.content {
   max-width: 1250px;
   margin: auto;
   padding: 0 30px;
 }
-.navbar{
+.navbar {
   position: fixed;
   width: 100%;
   z-index: 1;
   padding: 25px 0;
   transition: all 0.3s ease;
 }
-.navbar.sticky{
-  background: #1B242F;
+.navbar.sticky {
+  background: #1b242f;
   padding: 10px 0;
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.navbar .content{
+.navbar .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.navbar .logo a{
+.navbar .logo a {
   color: #fff;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
 }
-.navbar .menu-list{
+.navbar .menu-list {
   display: inline-flex;
 }
-.menu-list li{
+.menu-list li {
   list-style: none;
 }
-.menu-list li a{
+.menu-list li a {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -77,11 +77,11 @@ html[theme='dark-mode'] {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.menu-list li a:hover{
+.menu-list li a:hover {
   color: #007bff;
 }
 /* home page starts */
-.header-1{
+.header-1 {
   background: url("../images/banne2.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
@@ -130,13 +130,13 @@ html[theme='dark-mode'] {
   background-color: rgba(64, 112, 244, 0.8);
 }
 
-.icon{
+.icon {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
   display: none;
 }
-.menu-list .cancel-btn{
+.menu-list .cancel-btn {
   position: absolute;
   right: 30px;
   top: 20px;
@@ -146,122 +146,127 @@ html[theme='dark-mode'] {
 /* css for about section starts here*/
 
 .about .about-text {
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .about .about-text .underline {
   width: 80px;
   height: 3px;
-  background: #1B242F;
-  margin: 0px auto; 
+  background: #1b242f;
+  margin: 0px auto;
 }
 
 .about .image img {
-    width: 350px;
-    height: 400px;
-    margin-top: 100px;
-    margin-left: 100px;
+  width: 350px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 100px;
 }
-.about .headings{
-    color:black;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    left:40%;
-    top:-340px;
+.about .headings {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 40%;
+  top: -340px;
 }
-.about .description{
-    width:84%;
-    text-align: justify;
-    color:black;
-    font-size: 20px;
-    position: relative;
-    left:7%;
-    top:-320px;
+.about .description {
+  width: 84%;
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  left: 7%;
+  top: -320px;
 }
-.about .headings span{
-        color: #4070f4;
-        font-weight: bold;
+.about .headings span {
+  color: #4070f4;
+  font-weight: bold;
 }
 .wrap {
-    display: grid;
+  display: grid;
 }
 
 .container {
-    display: inline-flex;
-    margin-top: 13px;
+  display: inline-flex;
+  margin-top: 13px;
 }
 
 .box {
-    height: 30px;
-    background: #04c2c9;
-    width: 100px;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.3;
+  height: 30px;
+  background: #04c2c9;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.3;
 }
 
 .box-1 {
-    height: 30px;
-    background: #eeeeee;
-    width: 50px;
-    color: gray;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.3;
+  height: 30px;
+  background: #eeeeee;
+  width: 50px;
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.3;
 }
 
 .bars {
-    height: 30px;
-    width: 30%;
-    background: #eeeeee;
+  height: 30px;
+  width: 30%;
+  background: #eeeeee;
 }
 
 .bars .bar {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju 2s ease-in-out 1 forwards;
 }
 
 .bars .bar-1 {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju-1 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-1 2s ease-in-out 1 forwards;
+}
+.bars .bar-2 {
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-2 2s ease-in-out 1 forwards;
 }
 .bars .bar-3 {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju-3 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-3 2s ease-in-out 1 forwards;
 }
 
 .bars .bar-4 {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju-4 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-4 2s ease-in-out 1 forwards;
 }
 
 .bars .bar-5 {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju-5 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-5 2s ease-in-out 1 forwards;
 }
 
 .bars .bar-8 {
-    height: 30px;
-    background: #00a1a7;
-    animation: biju-8 2s ease-in-out 1 forwards;
+  height: 30px;
+  background: #00a1a7;
+  animation: biju-8 2s ease-in-out 1 forwards;
 }
 
 .skills {
-    position: relative;
-    left: 670px;
-    top: -400px;
+  position: relative;
+  left: 670px;
+  top: -400px;
 }
-.about button{
+.about button {
   background-color: #4070f4;
   color: #f2f2f2;
   font-size: 21px;
@@ -272,103 +277,111 @@ html[theme='dark-mode'] {
   border: none;
   border-radius: 5px;
   position: relative;
-  top:-300px;
-  left:45%;
+  top: -300px;
+  left: 45%;
 }
 
 .about button:hover {
   background-color: rgba(64, 112, 244, 0.8);
 }
 @keyframes biju {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 60%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
 }
 
 @keyframes biju-1 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 70%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes biju-2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%;
+  }
 }
 @keyframes biju-3 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 50%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
 }
 
 @keyframes biju-4 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 55%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
 }
-@keyframes biju-5{
-    from {
-        width: 0%;
-    }
-    to {
-        width: 40%;
-    }
+@keyframes biju-5 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 30%;
+  }
 }
 
 @keyframes biju-8 {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 30%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 30%;
+  }
 }
 
 /* css for about section ends here */
 
 /* css for service section starts here */
-.services-section{
+.services-section {
   position: relative;
-  top:-150px;
+  top: -150px;
 }
-.inner-width{
+.inner-width {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
   overflow: hidden;
 }
-.section-title{
+.section-title {
   text-align: center;
   text-transform: uppercase;
 }
-.border{
+.border {
   width: 90px;
   height: 3px;
-  background: #1B242F;
+  background: #1b242f;
   margin: 0px auto;
 }
-.services-container{
+.services-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.service-box{
+.service-box {
   max-width: 33.33%;
   padding: 10px;
   text-align: center;
   cursor: pointer;
 }
 
-.service-icon{
+.service-icon {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -379,31 +392,117 @@ html[theme='dark-mode'] {
   margin-top: 16px;
   transition: 0.3s linear;
 }
-.service-icon i{
+.service-icon i {
   line-height: 70px;
   transform: rotate(-45deg);
   font-size: 26px;
 }
-.service-box:hover .service-icon{
+.service-box:hover .service-icon {
   background: #4070f4;
   color: #ddd;
 }
-.service-title{
+.service-title {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.service-desc{
+.service-desc {
   font-size: 14px;
 }
-.serrr{
+.serrr {
   position: relative;
-  top:-195px;
+  top: -195px;
 }
 /* css for service sections ends here */
+/* Projects */
+/* Styling for the projects title */
+
+.projects-title {
+  font-size: 32px; /* Large font size for prominence */
+  font-weight: 700;  /* Bold text */
+  color: #333;       /* Dark color for contrast */
+  text-align: center; /* Centered title */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  text-transform: uppercase; /* Optional: for a more formal feel */
+}
+
+/* Styling for the projects description */
+.projects-description {
+  font-size: 1.1rem; /* Adjust size of subheading */
+  color: #666; /* Lighter color for description */
+  text-align: center; /* Center align description */
+  margin-top: 0.5rem; /* Small space above the description */
+  margin-bottom: 2rem; /* Space below the description */
+  display: block; /* Ensures it is on a new line */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  color: #444;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+@media(max-width:900px){
+  #projects{
+    margin-top: 150px;
+  }
+}
+/* Projects Ends */
 /* css for contact section starts here */
 
-.wrapper{
+.wrapper {
   position: relative;
   transform: translate(-50%);
   left: 50%;
@@ -414,34 +513,34 @@ html[theme='dark-mode'] {
   border-radius: 5px;
 }
 
-.wrapper h1{
+.wrapper h1 {
   text-align: center;
   text-transform: uppercase;
   color: #332902;
   font-weight: bold;
 }
-.wrapper .query{
+.wrapper .query {
   text-align: center;
   padding-top: 10px;
   font-style: normal;
   font-weight: bold;
-  color: #4070F4;
+  color: #4070f4;
 }
-.wrapper .border{
+.wrapper .border {
   width: 90px;
-height: 3px;
-background: #1B242F;
-margin: 0px auto;
+  height: 3px;
+  background: #1b242f;
+  margin: 0px auto;
 }
-.wrapper form{
+.wrapper form {
   margin-top: 50px;
 }
-.wrapper .input_field{
+.wrapper .input_field {
   margin-bottom: 10px;
 }
 
 .wrapper .input_field input[type="text"],
-.wrapper textarea{
+.wrapper textarea {
   border: 2px solid #e0e0e0;
   width: 100%;
   padding: 12px;
@@ -449,12 +548,12 @@ margin: 0px auto;
   outline: none;
 }
 
-.wrapper textarea{
+.wrapper textarea {
   resize: none;
   height: 80px;
 }
 
-.wrapper .btn input[type="submit"]{
+.wrapper .btn input[type="submit"] {
   border: 2px solid black;
   margin-top: 15px;
   padding: 10px;
@@ -468,17 +567,17 @@ margin: 0px auto;
   border-radius: 7px;
   cursor: pointer;
   position: relative;
-  left:50%;
+  left: 50%;
   transform: translate(-50%);
-  transition: .5s;
+  transition: 0.5s;
 }
-.wrapper .btn input[type="submit"]:hover{
+.wrapper .btn input[type="submit"]:hover {
   background: #04c2c9;
   border-color: #04c2c9;
   color: white;
-  transition: .5s;
+  transition: 0.5s;
 }
-#error_message{
+#error_message {
   margin-top: 20px;
   margin-bottom: 20px;
   background: #fe8b8e;
@@ -487,9 +586,9 @@ margin: 0px auto;
   font-size: 14px;
   transition: all 0.5s ease;
 }
-#contact{
+#contact {
   position: relative;
-  top:-50px;
+  top: -50px;
 }
 /* css for contact section ends here */
 /* css for footer section starts here */
@@ -584,114 +683,113 @@ footer .footnote .highlight {
 /* css for footer section ends here */
 /* media queries */
 @media (max-width: 1230px) {
-  .content{
+  .content {
     padding: 0 60px;
   }
 }
 @media (max-width: 1100px) {
-  .content{
+  .content {
     padding: 0 40px;
   }
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .header-1 {
-      width: 1024px;
-      height: 524px;
+    width: 1024px;
+    height: 524px;
   }
-  .navbar .logo a{
-   font-size: 25px;
+  .navbar .logo a {
+    font-size: 25px;
   }
   .header-1 .headings {
-      top: 190px;
+    top: 190px;
   }
   .header-1 .headings:nth-child(1) {
-      font-size: 25px;
+    font-size: 25px;
   }
   .header-1 .headings:nth-child(2) {
-      font-size: 45px;
+    font-size: 45px;
   }
   .header-1 .headings:nth-child(3) {
-      font-size: 35px;
+    font-size: 35px;
   }
   .header-1 button {
-      font-size: 12px;
-      width: 10%;
-      left: 150px;
-      top: 200px;
+    font-size: 12px;
+    width: 10%;
+    left: 150px;
+    top: 200px;
   }
   .skills {
     left: 470px;
-}
-  .about button{
+  }
+  .about button {
     font-size: 17px;
     height: 45px;
   }
 }
-@media screen and (max-width:960px) {
-  .service-box{
+@media screen and (max-width: 960px) {
+  .service-box {
     max-width: 45%;
   }
 }
 @media (max-width: 900px) {
-  .content{
+  .content {
     padding: 0 30px;
   }
-  footer{
+  footer {
     margin-top: 150px;
   }
-  .serrr{
+  .serrr {
     position: relative;
-    top:100px;
+    top: 100px;
   }
-  .wrapper{
+  .wrapper {
     position: relative;
-    top:200px;
+    top: 200px;
   }
-  .services-section{
+  .services-section {
     position: relative;
-  top:150px;
+    top: 150px;
   }
-  .about .image{
+  .about .image {
     text-align: center;
     margin-left: -100px;
   }
-  .about .skills{
+  .about .skills {
     position: relative;
-    top:10px;
-    left:26%;
+    top: 10px;
+    left: 26%;
   }
-  .about .headings
-  {
-    top:50px;
-    left:35%;
+  .about .headings {
+    top: 50px;
+    left: 35%;
   }
-  .about .description{
+  .about .description {
     position: relative;
-    left:7%;
-    top:70px;
+    left: 7%;
+    top: 70px;
   }
-  .about button{
+  .about button {
     position: relative;
-    top:90px;
+    top: 90px;
     font-size: 15px;
   }
 }
 @media (max-width: 868px) {
-  footer .icon-wrap .mdi{
+  footer .icon-wrap .mdi {
     position: relative;
     bottom: -8px;
   }
 
-  body.disabled{
+  body.disabled {
     overflow: hidden;
   }
-  .icon{
+  .icon {
     display: block;
   }
-  .icon.hide{
+  .icon.hide {
     display: none;
   }
-  .navbar .menu-list{
+  .navbar .menu-list {
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -704,212 +802,210 @@ footer .footnote .highlight {
     background: #222;
     transition: all 0.3s ease;
   }
-  .navbar.show .menu-list{
+  .navbar.show .menu-list {
     left: 0%;
   }
-  .navbar .menu-list li{
+  .navbar .menu-list li {
     margin-top: 45px;
   }
-  .navbar .menu-list li a{
+  .navbar .menu-list li a {
     font-size: 18px;
     margin-left: -100%;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  .navbar.show .menu-list li a{
+  .navbar.show .menu-list li a {
     margin-left: 0px;
   }
-
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
   .header-1 {
-      width: 850px;
-      height: 400px;
+    width: 850px;
+    height: 400px;
   }
   .header-1 .headings {
-      top: 140px;
+    top: 140px;
   }
   .header-1 button {
-      top: 150px;
+    top: 150px;
   }
-  .about button{
+  .about button {
     font-size: 14px;
-    height:40px;
-    width:15%;
+    height: 40px;
+    width: 15%;
   }
 }
-@media screen and (max-width:768px) {
-  .service-box{
+@media screen and (max-width: 768px) {
+  .service-box {
     max-width: 50%;
   }
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
   .header-1 {
-      width: 680px;
-      height: 350px;
+    width: 680px;
+    height: 350px;
   }
   .header-1 .headings {
-      top: 120px;
+    top: 120px;
   }
   .header-1 .headings:nth-child(1) {
-      font-size: 20px;
+    font-size: 20px;
   }
   .header-1 .headings:nth-child(2) {
-      font-size: 40px;
+    font-size: 40px;
   }
   .header-1 .headings:nth-child(3) {
-      font-size: 30px;
+    font-size: 30px;
   }
   .header-1 button {
-      font-size: 12px;
-      width: 12%;
-      top: 130px;
-      left: 140px;
+    font-size: 12px;
+    width: 12%;
+    top: 130px;
+    left: 140px;
   }
-  .about .skills{
-    left:24%;
+  .about .skills {
+    left: 24%;
   }
-  .about .headings{
+  .about .headings {
     margin-left: -40px;
   }
-  .about button{
+  .about button {
     margin-left: -40px;
   }
 }
-@media screen and (max-width:574px) {
-  .about .skills{
+@media screen and (max-width: 574px) {
+  .about .skills {
     margin-left: -30px;
   }
 }
-@media screen and (max-width:500px) {
-  .about .image img{
+@media screen and (max-width: 500px) {
+  .about .image img {
     width: 300px;
     height: 350px;
-
   }
-  .about .headings{
+  .about .headings {
     margin-left: -80px;
   }
-  .about .about-text .underline{
+  .about .about-text .underline {
     width: 50px;
   }
-  .services-section .inner-width h1{
+  .services-section .inner-width h1 {
     font-size: 20px;
   }
-  .services-section .inner-width .border{
+  .services-section .inner-width .border {
     width: 55px;
   }
-  .wrapper h1{
+  .wrapper h1 {
     font-size: 20px;
   }
-  .wrapper .border{
+  .wrapper .border {
     width: 60px;
   }
-  .about button{
+  .about button {
     width: 20%;
   }
-  .navbar .logo a{
+  .navbar .logo a {
     font-size: 20px;
   }
-  .about .about-text h1{
-    font-size:20px;
+  .about .about-text h1 {
+    font-size: 20px;
   }
 }
-@media screen and (max-width:480px) {
-  .service-box{
+@media screen and (max-width: 480px) {
+  .service-box {
     max-width: 100%;
   }
 }
-@media screen and (max-width:450px) {
-  .navbar .logo a{
+@media screen and (max-width: 450px) {
+  .navbar .logo a {
     font-size: 21px;
   }
   .header-1 {
-      width: 450px;
-      height: 250px;
+    width: 450px;
+    height: 250px;
   }
   .header-1 .headings {
-      top: 110px;
-      left: 80px;
+    top: 110px;
+    left: 80px;
   }
   .header-1 .headings:nth-child(1) {
-      font-size: 12px;
+    font-size: 12px;
   }
   .header-1 .headings:nth-child(2) {
-      font-size: 24px;
+    font-size: 24px;
   }
   .header-1 .headings:nth-child(3) {
-      font-size: 18px;
+    font-size: 18px;
   }
   .header-1 button {
-      font-size: 9px;
-      width: 10%;
-      top: 120px;
-      left: 110px;
-      height: 30px;
+    font-size: 9px;
+    width: 10%;
+    top: 120px;
+    left: 110px;
+    height: 30px;
   }
-  .about button{
+  .about button {
     width: 30%;
   }
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width: 415px) {
   .header-1 {
-      width: 415px;
-      height: 235px;
+    width: 415px;
+    height: 235px;
   }
   .header-1 .headings {
-      top: 100px;
-      left: 80px;
+    top: 100px;
+    left: 80px;
   }
   .header-1 button {
-      top: 110px;
+    top: 110px;
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .header-1 {
-      width: 400px;
-      height: 200px;
+    width: 400px;
+    height: 200px;
   }
   .header-1 .headings {
-      top: 80px;
-      left: 50px;
+    top: 80px;
+    left: 50px;
   }
   .header-1 button {
-      font-size: 9px;
-      width: 10%;
-      top: 80px;
-      left: 80px;
-      height: 30px;
+    font-size: 9px;
+    width: 10%;
+    top: 80px;
+    left: 80px;
+    height: 30px;
   }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width: 350px) {
   .header-1 {
-      width: 350px;
-      height: 180px;
+    width: 350px;
+    height: 180px;
   }
   .header-1 .headings {
-      top: 60px;
-      left: 40px;
+    top: 60px;
+    left: 40px;
   }
   .header-1 button {
-      font-size: 9px;
-      width: 11%;
-      top: 60px;
-      left: 60px;
-      height: 25px;
+    font-size: 9px;
+    width: 11%;
+    top: 60px;
+    left: 60px;
+    height: 25px;
   }
-  .about button{
+  .about button {
     width: 40%;
   }
-  .about .skills{
+  .about .skills {
     margin-left: -40px;
   }
-  .about .image img{
+  .about .image img {
     width: 250px;
     height: 300px;
   }
-  .wrapper .btn input[type=submit]{
-    width:40% ;
+  .wrapper .btn input[type="submit"] {
+    width: 40%;
   }
 }
